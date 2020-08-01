@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sample suite" allow-return-values = "true">
+	<test name="Extent test">
+		<parameter name="String" value="null">
+		</parameter>
+		<packages>
+			<classes>
+				<class name="simple.ExtentReportTest.Driver"/>
+			</classes>
+		</packages>
+	
+	</test>
+
+
+
+</suite>

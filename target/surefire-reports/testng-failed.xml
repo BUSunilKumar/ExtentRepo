@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Sample suite]" allow-return-values="true">
+  <test thread-count="5" verbose="0" name="Extent test(failed)">
+    <parameter name="String" value="null"/>
+    <classes>
+      <class name="simple.ExtentReportTest.Driver">
+        <methods>
+          <include name="startreport"/>
+          <include name="sample" invocation-numbers="0"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- simple.ExtentReportTest.Driver -->
+    </classes>
+  </test> <!-- Extent test(failed) -->
+</suite> <!-- Failed suite [Sample suite] -->

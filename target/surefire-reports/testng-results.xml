@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sample suite" duration-ms="7753" started-at="2020-07-31T16:23:29Z" finished-at="2020-07-31T16:23:36Z">
+    <groups>
+    </groups>
+    <test name="Extent test" duration-ms="7753" started-at="2020-07-31T16:23:29Z" finished-at="2020-07-31T16:23:36Z">
+      <class name="simple.ExtentReportTest.Driver">
+        <test-method status="PASS" signature="startreport()[pri:0, instance:simple.ExtentReportTest.Driver@1a407d53]" name="startreport" is-config="true" duration-ms="234" started-at="2020-07-31T16:23:28Z" finished-at="2020-07-31T16:23:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreport -->
+        <test-method status="PASS" signature="sample(java.lang.String)[pri:0, instance:simple.ExtentReportTest.Driver@1a407d53]" name="sample" duration-ms="7717" started-at="2020-07-31T16:23:29Z" finished-at="2020-07-31T16:23:36Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:simple.ExtentReportTest.Driver@1a407d53]" name="endReport" is-config="true" duration-ms="522" started-at="2020-07-31T16:23:36Z" finished-at="2020-07-31T16:23:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- simple.ExtentReportTest.Driver -->
+    </test> <!-- Extent test -->
+  </suite> <!-- Sample suite -->
+</testng-results>
